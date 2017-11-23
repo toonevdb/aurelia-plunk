@@ -5,7 +5,7 @@ SystemJS.config({
   },
   browserConfig: {
     "bundles": {
-      "aurelia-bundle.js": [
+      "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.5/aurelia-bundle.js": [
         "npm:aurelia-validation@1.1.2/aurelia-validation.js",
         "npm:aurelia-validation@1.1.2.json",
         "npm:aurelia-pal@1.4.0/aurelia-pal.js",
@@ -172,7 +172,7 @@ SystemJS.config({
         "npm:aurelia-animator-css@1.0.4/aurelia-animator-css.js",
         "npm:aurelia-animator-css@1.0.4.json"
       ],
-      "babel-bundle.js": [
+      "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.5/babel-bundle.js": [
         "npm:systemjs-plugin-babel@0.0.25/plugin-babel.js",
         "npm:systemjs-plugin-babel@0.0.25.json",
         "npm:systemjs-plugin-babel@0.0.25/systemjs-babel-browser.js",
