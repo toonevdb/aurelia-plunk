@@ -1,14 +1,14 @@
 SystemJS.config({
   browserConfig: {
     "paths": {
-      "npm:": "/jspm_packages/npm/",
-      "github:": "/jspm_packages/github/"
+      "npm:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.4/jspm_packages/npm/",
+      "github:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.4/jspm_packages/github/"
     }
   },
   nodeConfig: {
     "paths": {
-      "npm:": "jspm_packages/npm/",
-      "github:": "jspm_packages/github/"
+      "npm:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.4/jspm_packages/npm/",
+      "github:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.4/jspm_packages/github/"
     }
   },
   transpiler: "plugin-babel"
@@ -74,11 +74,14 @@ SystemJS.config({
   meta: {
     '*.js': {
       babelOptions: {
-        plugins: ['transform-decorators-legacy']
+        plugins: ['babel-plugin-transform-decorators-legacy']
       }
     }
   },
   packages: {
+    "": {
+      "defaultExtension": "js"
+    },
     "npm:aurelia-notification@1.0.0": {
       "map": {
         "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.2",
