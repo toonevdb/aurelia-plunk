@@ -20,7 +20,8 @@
       "aurelia-notification": "npm:aurelia-notification@^1.0.0",
       "aurelia-tabbed": "npm:aurelia-tabbed@^0.1.3",
       "aurelia-testing": "npm:aurelia-testing@^1.0.0-beta.3.0.1",
-      "aurelia-validation": "npm:aurelia-validation@^1.0.0"
+      "aurelia-validation": "npm:aurelia-validation@^1.0.0",
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.25"
     },
     "devDependencies": {},
     "peerDependencies": {

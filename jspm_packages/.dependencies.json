@@ -278,5 +278,9 @@
   "github:toonevdb/aurelia-environment@0.1.7": {
     "deps": {},
     "peerDeps": {}
+  },
+  "npm:systemjs-plugin-babel@0.0.25": {
+    "deps": {},
+    "peerDeps": {}
   }
 }

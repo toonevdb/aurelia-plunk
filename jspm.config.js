@@ -14,6 +14,7 @@ SystemJS.config({
 });
 
 SystemJS.config({
+  transpiler: 'plugin-babel',
   packageConfigPaths: [
     "npm:@*/*.json",
     "npm:*.json",
@@ -53,7 +54,8 @@ SystemJS.config({
     "aurelia-testing": "npm:aurelia-testing@1.0.0-beta.4.0.0",
     "aurelia-validation": "npm:aurelia-validation@1.1.2",
     "i18next": "npm:i18next@3.5.2",
-    "intl": "npm:intl@1.2.5"
+    "intl": "npm:intl@1.2.5",
+    "plugin-babel": "npm:systemjs-plugin-babel@0.0.25"
   },
   packages: {
     "npm:aurelia-notification@1.0.0": {
