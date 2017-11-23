@@ -1,11 +1,11 @@
 SystemJS.config({
   paths: {
-    "npm:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.5/jspm_packages/npm/",
-    "github:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.5/jspm_packages/npm/"
+    "npm:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.6/jspm_packages/npm/",
+    "github:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.6/jspm_packages/npm/"
   },
   browserConfig: {
     "bundles": {
-      "aurelia-bundle.js": [
+      "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.6/aurelia-bundle.js": [
         "npm:aurelia-validation@1.1.2/aurelia-validation.js",
         "npm:aurelia-validation@1.1.2.json",
         "npm:aurelia-pal@1.4.0/aurelia-pal.js",
