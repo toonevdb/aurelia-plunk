@@ -1,0 +1,9 @@
+{
+  "main": "aurelia-notification.js",
+  "format": "amd",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

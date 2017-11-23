@@ -1,0 +1,18 @@
+{
+  "main": "index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "dist/es/*": {
+      "format": "esm"
+    },
+    "rollup.config.js": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./dist/commonjs": "./dist/commonjs/index.js"
+  }
+}
