@@ -1,7 +1,7 @@
 SystemJS.config({
   paths: {
-    "npm:": "jspm_packages/npm/",
-    "github:": "jspm_packages/github/"
+    "npm:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.5/jspm_packages/npm/",
+    "github:": "https://cdn.rawgit.com/toonevdb/aurelia-plunk/v0.0.5/jspm_packages/github/"
   },
   browserConfig: {
     "bundles": {
