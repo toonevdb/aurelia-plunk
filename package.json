@@ -1,12 +1,17 @@
 {
   "name": "aurelia-plunk",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Plunker for Aurelia",
   "keywords": [
     "aurelia",
     "plunker"
   ],
   "author": "Anthony Vanden Bossche",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/toonevdb/aurelia-plunk.git"
+  },
   "jspm": {
     "name": "app",
     "main": "app.js",
@@ -14,7 +19,6 @@
       "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.2",
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0",
       "aurelia-dialog": "npm:aurelia-dialog@^1.0.0-rc.1.0.3",
-      "aurelia-environment": "github:toonevdb/aurelia-environment@^0.1.7",
       "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.1.2",
       "aurelia-i18n": "npm:aurelia-i18n@^1.6.0",
       "aurelia-notification": "npm:aurelia-notification@^1.0.0",
